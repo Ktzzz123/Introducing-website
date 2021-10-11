@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(223, 252, 242);
+    background-color: rgb(169, 211, 211);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,6 +8,16 @@
 .header{
     background-color: #dfdfdf;
     width: 100%;
-    height: 200px;
-    border-style: solid;
+    height: 170px;
+    border-style: none none solid none;
+    border-width: 1px;
+  
+
+}
+.portfolio{
+    width: 69%;
+    font-family: fantasy;
+    font-size: 8rem;
+    background-color: #dfdfdf;
+    margin: auto;
 }
