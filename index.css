@@ -5,10 +5,15 @@
     box-sizing: border-box;
     /* font-family: "Poppins", sans-serif; */
     font-family: "Sofia", sans-serif;
-    background-image: url(https://freerangestock.com/sample/141493/simple-black-cross-repeat-pattern-.jpg);
+    background-image: url(https://st4.depositphotos.com/1591259/23809/i/600/depositphotos_238097010-stock-photo-mix-repeat-seamless-pattern-imprints.jpg);
     background-size: 400px 300px;
 
 }
+.text{
+    font-size: 20px;
+}
+
+/* Header */
 .header{
     background-color: #dfdfdf;
     width: 100%;
@@ -16,9 +21,6 @@
     border-style: none none dotted none;
     border-width: 1px;
 }
-
-
-/* Header */
 
 
 .portfolio{
@@ -31,13 +33,6 @@
     animation: color-change 3s infinite;
     animation-direction: alternate-reverse
 }
-
-/* Container */
-#welcome{
-font-size: 3rem;
-text-align: center;
-color: gray;
-}
 @keyframes color-change {
     0% { color: black; }
     30% { color: rgb(31, 31, 31); }
@@ -46,5 +41,18 @@ color: gray;
     100% { color: rgb(146, 143, 143); }
   }
 
+
+/* Container */
+.containers{
+    width: 80%;
+    height: 100%;
+    background-color: blanchedalmond;
+    /* background-image: url(https://st4.depositphotos.com/1591259/23809/i/600/depositphotos_238097010-stock-photo-mix-repeat-seamless-pattern-imprints.jpg); */
+}
+#welcome{
+font-size: 3rem;
+text-align: center;
+color: black;
+}
 
   
