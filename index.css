@@ -3,21 +3,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Sofia", sans-serif;
+    background-image: url(https://freerangestock.com/sample/141493/simple-black-cross-repeat-pattern-.jpg);
+    background-size: 400px 300px;
+
 }
 .header{
     background-color: #dfdfdf;
     width: 100%;
-    height: 170px;
-    border-style: none none solid none;
+    height: px;
+    border-style: none none dotted none;
     border-width: 1px;
-  
-
 }
+
+
+/* Header */
+
+
 .portfolio{
-    width: 69%;
-    font-family: fantasy;
+    width: 81%;
+    font-family: "Sofia", sans-serif;
     font-size: 8rem;
     background-color: #dfdfdf;
     margin: auto;
+    text-align: center;
+    animation: color-change 3s infinite;
+    animation-direction: alternate-reverse
 }
+
+/* Container */
+#welcome{
+font-size: 3rem;
+text-align: center;
+color: gray;
+}
+@keyframes color-change {
+    0% { color: black; }
+    30% { color: rgb(31, 31, 31); }
+    50% { color: rgb(46, 46, 46);}
+    70%{ color: rgb(87, 86, 86);}
+    100% { color: rgb(146, 143, 143); }
+  }
+
+
+  
