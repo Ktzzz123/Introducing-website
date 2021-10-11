@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(223, 252, 242);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+.header{
+    background-color: #dfdfdf;
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+}
