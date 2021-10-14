@@ -20,6 +20,7 @@
     height: px;
     border-style: none none dotted none;
     border-width: 1px;
+    border-radius: 20px;
 }
 
 
@@ -48,8 +49,9 @@
     
     background-image: url(https://st4.depositphotos.com/1591259/23809/i/600/depositphotos_238097010-stock-photo-mix-repeat-seamless-pattern-imprints.jpg);
 }
+
 .content {
-    position: relative;
+    margin-top: 10px;
     margin: auto;
     display: flex;
     align-content: center;
@@ -61,8 +63,6 @@
 }
 
 .box1{
-    /* margin: auto; */
-    display: flex;
     align-content: center;
     min-height: 100vh;
     width: 40%;
@@ -70,13 +70,50 @@
     border-style: none solid none none;
     border-width: 1px;
 }
-/* .line{
+.boxintroduction{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 200px;
+    align-content:center;
+    border-style: solid;
+    border-width: 1px;
+}
+#introductionbox{
+    display: flex;
+    background-color: rgb(243, 252, 253);
+}
+.avatar{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    background: url(https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.6435-9/162033202_3015340108750147_4449189087814496768_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=QoKOBD0dhRQAX_ymtT6&_nc_ht=scontent.fsgn5-5.fna&oh=893a790cd0c7277888913cc4d2d6d3fc&oe=618EE73C);
+    background-size: 100px auto;
+}
+.infor{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 213px;
+    height: 150px;
+    /* border-style: solid; */
+    border-width: 1px;
+}
+#aboutMeBox{
+    background-color: rgb(243, 252, 253);
     display: flex;
     align-content: center;
-    min-height: 100vh;
-    width: 1px;
-    background: black;
-} */
+    text-align: center;
+}
+
+.aboutmecontent{
+    margin: auto;
+    /* text-align: center; */
+}
 .box2{
     /* position: absolute; */
     display: flex;
@@ -85,10 +122,8 @@
     min-height: 100vh;
     background: cornsilk;
     border-style: none none none solid;
-    border-width: 1px;
+    border-width: 1px;  
 }
-
-
 /* Footer */
 
 .footer{
